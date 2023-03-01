@@ -1,0 +1,118 @@
+/*
+********  MI CUENTA  ********
+* Al no tener elementos comunes, he decidido hacer este css aparte
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Space Mono', monospace;
+}
+
+.header-registro img{
+    background-color: white;
+    text-align: center;
+    display: block;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 200px;
+}
+
+.container-main{
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    grid-template-rows: 1;
+    height: 600px;
+    text-align: center;
+   
+}
+
+.container-izquierda{
+    grid-column: 0 / 1;
+    
+    width: 100%;
+    height: 100%;
+    border-right: 1px solid #CCCCCC;
+}
+.container-izquierda h1{
+    color: #FFB923;
+}
+.container-izquierda .ventaja{
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    grid-template-rows: 3;
+    margin-top: 50px;
+}
+.container-izquierda .ventaja img{
+
+    grid-column: 0 / 1;
+    text-align: center;
+    margin-left: 50%;
+    width: 40px;
+    height: 40px;
+
+}
+.container-izquierda .ventaja .texto{
+    grid-column: 2 / 3;
+    margin-right: 70px;
+    text-align: justify;
+}
+
+.container-derecha{
+    grid-column: 2 / 3;
+   
+    width: 100%;
+    height: 100%;
+    border-left: 1px solid #CCCCCC;
+}
+.container-derecha h1{
+    color: #FFB923;
+}
+.container-derecha .form-registro .form-seccion{
+    max-width: 300px;
+    text-align: center;
+    margin-left: 29%;
+}
+.container-derecha .form-registro .form-checkbox{
+    margin-top: 30px;
+    max-width: 500px;
+    text-align: center;
+    margin-left: 15%;
+}
+.container-derecha .form-registro .form-checkbox2{
+    margin-top: 20px;
+    margin-left: 22%;
+}
+
+.container-derecha .form-registro .form-seccion input{
+    margin-top: 30px;
+    font-family: inherit;
+    padding: 10px;
+    width: 100%;
+    background-color: #e7e5e5;
+    border: none;
+    border-radius: 50px;
+}
+.container-derecha .form-registro .form-seccion .checkbox{
+    width: 20px;
+}
+
+/*Dando estilos al placeholder*/
+
+::-moz-placeholder{
+    text-align: center;
+}
+
+.container-derecha .form-registro button{
+    font-family: 'Space Mono', monospace;
+    font-size: 15px;
+    margin-top: 40px;
+    width: 42%;
+    height: 40px;
+    border-radius: 50px;
+    border: none;
+    background-color: #FFB923;
+}

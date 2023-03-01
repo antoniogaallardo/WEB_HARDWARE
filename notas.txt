@@ -1,0 +1,18 @@
+- Todo el header de la página está hecho a mano.
+
+- El contenido está hecho con Grid de BootStrap por que lo intenté hacer a mano y muchos elementos no conseguía colocarlos
+  correctamente.
+
+- La página se hubiera quedado genial si hubiese implementado la descripción de los productos de forma dinámica.
+  Ningún producto tiene enlace debido a esto.
+
+- En el formulario no me funcionaba la función mail() de PHP, estuve probando con xampp con el servidor de Apache para
+  enviar los datos, pero algo me daba fallo. Simplemente en el boton de crear cuenta redirige a la página de inicio sin mas.
+
+- El responsive de BootStrap no me acababa de funcionar, probé todos los atributos pero se me descuadraban los elementos.
+  Lo he aplicado solo en el header.
+
+- Hay imágenes que al ser más pequeñas que otras se quedan mal, es complicado encontrar imágenes similares.
+
+- Le he dedicado mucho tiempo pero no estoy contento por que no he podido implementar la cesta (por el tema de JavaScript)
+  la web la acabaré mas adelante.
